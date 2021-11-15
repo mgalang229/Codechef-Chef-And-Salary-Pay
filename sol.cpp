@@ -24,7 +24,7 @@ int main() {
 			}
 		}
 		best = max(best, cnt);
-		// get the total regular pay by multiply 'x' with the total no. of 1s
+		// get the total regular pay by multiplying 'x' with the total no. of 1s
 		// and add it to the days of the longest streak multiplied to the bonus
 		// of each day that belongs to that longest streak of days
 		cout << (count(s.begin(), s.end(), '1') * 1LL * x) + (best * 1LL * y) << '\n';
